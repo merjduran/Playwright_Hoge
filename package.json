@@ -1,0 +1,24 @@
+{
+  "name": "Playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "@testing-library/jest-dom/extend-expect"
+    ],
+    "testTimeout": 15000
+  },
+  "keywords": [],
+  "author": "Mer Boy Anthony Duran",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.2",
+    "expect-playwright": "^0.8.0",
+    "jest": "^27.5.1",
+    "playwright": "^1.19.1"
+  }
+}
